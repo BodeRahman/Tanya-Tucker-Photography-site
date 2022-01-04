@@ -1,0 +1,13 @@
+.portfolio img {
+   width: 380px;
+   height: 350px;
+   object-fit: cover;
+   max-width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+   .portfolio-one-hero .px-5 {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+   }
+}
